@@ -1,4 +1,3 @@
-import * as S from './styles'
 import React from 'react'
 import { Box } from 'components/simple/Box'
 import * as S from './styles'
@@ -8,9 +7,11 @@ export type {{pascalCase name}}Props = {
 };
 
 const {{pascalCase name}}:React.FC = () => (
-  <Box data-testid={{pascalCase name}}>
-    {{pascalCase name}}
-  </Box>
+  <S.Wrapper>
+    <Box data-testid="{{pascalCase name}}">
+      {{pascalCase name}}
+    </Box>
+  </S.Wrapper>
 )
 
 export default {{pascalCase name}}

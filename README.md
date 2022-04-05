@@ -7,8 +7,6 @@
 - `lint`: runs the linter in all components and pages
 - `test`: runs jest to test all components and pages
 - `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
 - `export`: deploy to static bucket
 
 ## Getting Started

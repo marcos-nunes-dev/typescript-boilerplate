@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import React from 'react';
 
-import { Text } from '../Text';
+import { Text } from '../index';
 
 const text = 'Its a text';
 const longText =
