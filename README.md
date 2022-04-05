@@ -38,18 +38,16 @@ The following aspects were used to create the folder structure
       ↳ {ComponentName}             # component name with CamelCase
         ↳ index.tsx                 # element
         ↳ styles.ts                 # styles
-        ↳ test.tsx                  # tests
-    ↳ ...                           # all other components
+        ↳ __test__                  # tests
+          ↳ {CName}.test.tsx        # code test
+    ↳ simple                        # very small components/reusable
       ↳ {ComponentName}             # component name with CamelCase
         ↳ index.tsx                 # element
         ↳ styles.ts                 # styles
         ↳ __test__                  # tests
           ↳ {CName}.test.tsx        # code test
-                  # tests
   ↳ constants                       # application constants
     {filename}.tsx                  # some file with constants
-    ...
-  ↳ hocs                            # application hocs
     ...
   ↳ hooks                           # application hooks
     ↳ use{HookName}                 # application hook
@@ -71,7 +69,6 @@ The following aspects were used to create the folder structure
   ↳ providers                       # application providers
     ↳ {ProviderName}Provider        # Provider component
       index.tsx                     # element
-      styles.ts                     # styles
   ↳ styles                          # global styles and themes
     global.ts                       # global styles
     theme                           # global themes
